@@ -1,0 +1,39 @@
+Script started on Tue Feb 18 01:43:32 2014
+[?1034hbash-3.2$ consle [K[K[Kole c[K[K[K[K[K[K[K[K[Krails c
+Loading development environment (Rails 4.0.2)
+[?1034h2.0.0-p353 :001 > de [Kf string_shuffle)[K(s0[K)
+2.0.0-p353 :002?>   s.split('').shuffle.join
+2.0.0-p353 :003?>   end
+ => nil 
+2.0.0-p353 :004 > string_shutt[K[Kffle("foobar")
+ => "aoorbf" 
+2.0.0-p353 :005 > class String
+2.0.0-p353 :006?>   def shuffle
+2.0.0-p353 :007?>     self.split('').shuffle.join
+2.0.0-p353 :008?>     end
+2.0.0-p353 :009?>   end
+ => nil 
+2.0.0-p353 :010 > "foobar".shuffle
+ => "orofab" 
+2.0.0-p353 :011 > person1 = {}[Kfis[Krst: [K[K[K[K[K[K[K first: Mik[Kckey [K, ls[Kast: Mouse}
+NameError: uninitialized constant Mickey
+	from (irb):11
+	from /Users/Sui/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/gems/railties-4.0.2/lib/rails/commands/console.rb:90:in `start'
+	from /Users/Sui/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/gems/railties-4.0.2/lib/rails/commands/console.rb:9:in `start'
+	from /Users/Sui/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/gems/railties-4.0.2/lib/rails/commands.rb:62:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.0.0-p353 :012 > person1 = { first: "Mickey", last [KL[K: "Mouse"}
+ => {:first=>"Mickey", :last=>"Mouse"} 
+2.0.0-p353 :013 > person2 = {f[K firstL [K[K: "Minnie", last: "Mouse"}
+ => {:first=>"Minnie", :last=>"Mouse"} 
+2.0.0-p353 :014 > person3 = { first: "Mini", lat[Kst: "Mouse"}
+ => {:first=>"Mini", :last=>"Mouse"} 
+2.0.0-p353 :015 > params = { fater[K[Kher: p[Kperson1, mother [K: person2, j[Kchild: [er[K[K[Kperson3}
+ => {:father=>{:first=>"Mickey", :last=>"Mouse"}, :mother=>{:first=>"Minnie", :last=>"Mouse"}, :child=>{:first=>"Mini", :last=>"Mouse"}} 
+2.0.0-p353 :016 > params[:fae[Kther][L[K:fis[Krst]
+ => "Mickey" 
+2.0.0-p353 :017 > 
+bash-3.2$ exit
+
+Script done on Tue Feb 18 01:52:07 2014
